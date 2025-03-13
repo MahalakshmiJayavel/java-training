@@ -37,16 +37,16 @@ Track progress in progress-tracker.md.
 
 | Topic                        | Completion Status | Notes/Resources                          |
 |------------------------------|-------------------|------------------------------------------|
-| Basics                       | ✅ Done           | Covered syntax, variables, data types.  |
-| Operators                    | ✅ Done           | Arithmetic, logical, bitwise.           |
-| Control Structures           | ⏳ In Progress    | Need to practice nested loops.          |
-| Arrays                       | ❌ Not Started    |                                          |
-| Object-Oriented Programming  | ❌ Not Started    |                                          |
-| Collections Framework        | ❌ Not Started    |                                          |
-| Exception Handling           | ❌ Not Started    |                                          |
-| Multithreading               | ❌ Not Started    |                                          |
-| File Handling                | ❌ Not Started    |                                          |
-| Streams and Lambdas          | ❌ Not Started    |                                          |
-| Java 8+ Features             | ❌ Not Started    |                                          |
+| Basics                       | ✅ Done           | Covered syntax, variables, data types.   |
+| Operators                    | ✅ Done           | Arithmetic, logical, bitwise.            |
+| Control Structures           | ✅ Done           |                                          |
+| Arrays                       | ✅ Done           |                                          |
+| Object-Oriented Programming  | ✅ Done           |                                          |
+| Collections Framework        | ✅ Done           |                                          |
+| Exception Handling           | ✅ Done           |                                          |
+| Multithreading               | ✅ Done           |                                          |
+| File Handling                | ✅ Done           |                                          |
+| Streams and Lambdas          | ✅ Done           |                                          |
+| Java 8+ Features             | ✅ Done           |                                          |
 
 
