@@ -1,13 +1,18 @@
-import java.util.LinkedList;
+import java.util.LinkedList; // Import LinkedList from Java Collections Framework
 
 public class LinkedListDemo {
     public static void main(String[] args) {
+        // Create a LinkedList of Strings
         LinkedList<String> name = new LinkedList<>();
+
+        // Adding elements (names) to the LinkedList
         name.add("squid");
         name.add("tom");
         name.add("brady");
         name.add("snoopy");
         name.add("yor");
-            System.out.println(name);
-        }
+
+        // Printing the LinkedList
+        System.out.println("List of Names: " + name);
     }
+}
