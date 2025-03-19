@@ -1,4 +1,4 @@
-import java.util.LinkedList; // Import LinkedList from Java Collections Framework
+import java.util.LinkedList; 
 
 public class LinkedListDemo {
     public static void main(String[] args) {
