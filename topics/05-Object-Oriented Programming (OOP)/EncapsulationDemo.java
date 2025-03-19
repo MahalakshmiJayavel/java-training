@@ -1,10 +1,26 @@
-public class EncapsulationDemo {
-    public static void main(String[] args) {
-        User u = new User();
-        u.setName("Mahaks");
-        u.setMembership("premium");
+class Area {
+    private int length; // stores length
+    private int breadth; // stores breadth
 
-        System.out.println(u.getName());
-        System.out.println(u.getMembership());
+    // constructor to initialize values
+    Area(int length, int breadth)
+    {
+        this.length = length;
+        this.breadth = breadth;
+    }
+
+    // method to calculate area
+    public void getArea()
+    {
+        int area = length * breadth;
+        System.out.println("Area: " + area);
+    }
+}
+
+public class EncapsulationDemo {
+    public static void main(String[] args)
+    {
+        Area rect = new Area(2, 16);
+        rect.getArea();
     }
 }
