@@ -1,26 +1,37 @@
-class Area {
-    private int length; // stores length
-    private int breadth; // stores breadth
+// Encapsulated User class
+class User {
+    private String name;
+    private String membership;
 
-    // constructor to initialize values
-    Area(int length, int breadth)
-    {
-        this.length = length;
-        this.breadth = breadth;
+    // Setter for name
+    public void setName(String name) {
+        this.name = name;
     }
 
-    // method to calculate area
-    public void getArea()
-    {
-        int area = length * breadth;
-        System.out.println("Area: " + area);
+    // Getter for name
+    public String getName() {
+        return name;
+    }
+
+    // Setter for membership
+    public void setMembership(String membership) {
+        this.membership = membership;
+    }
+
+    // Getter for membership
+    public String getMembership() {
+        return membership;
     }
 }
 
+// Main class
 public class EncapsulationDemo {
-    public static void main(String[] args)
-    {
-        Area rect = new Area(2, 16);
-        rect.getArea();
+    public static void main(String[] args) {
+        User u = new User(); 
+        u.setName("Mahaks");
+        u.setMembership("premium");
+
+        System.out.println(u.getName());      
+        System.out.println(u.getMembership()); 
     }
 }
