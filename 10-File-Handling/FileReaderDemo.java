@@ -13,7 +13,7 @@ public class FileReaderDemo {
             }
         } 
         catch (IOException e) { // Handling file reading errors
-            System.out.println("Error reading the file: " + e.getMessage());
+            System.out.println("Error reading the file: " + e.getMessage());// e.getMessage()	returns Only the error message
         }
     }
 }
